@@ -1,0 +1,21 @@
+
+<div class="A-component component">
+    <span>A-Component</span>
+
+    <ul>
+        <li><button (click)="link('C')">show C-component</button></li>
+        <li><button (click)="link('D')">show D-component</button></li>
+    </ul>
+
+    <ul>
+        <li *ngFor="let user of array">
+            <button (click)="subLink(user.id)">{{user.id}}</button>
+            <!-- <button [routerLink]="['./', user.id]">{{user.id}}</button> -->
+        </li>
+    </ul>
+
+    <div class="inner">
+        <span>C or D component</span>
+        <router-outlet></router-outlet>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+.component {
+    background-color: purple;
+}
+.component span {
+    font-size: 26px;
+    font-weight: bold;
+}

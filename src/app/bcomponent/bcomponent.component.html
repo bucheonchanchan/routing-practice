@@ -1,0 +1,14 @@
+
+<div class="B-component component">
+    <span>B-Component</span>
+
+    <ul>
+        <li><button (click)="link('C')">show C-component</button></li>
+        <li><button (click)="link('D')">show D-component</button></li>
+    </ul>
+
+    <div class="inner">
+        <span>C or D component</span>
+        <router-outlet></router-outlet>
+    </div>
+</div>

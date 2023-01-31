@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.component {
+    padding: 15px;
+    background-color: green;
+}
+.component span {
+    font-size: 26px;
+    font-weight: bold;
+}
+ul, li { list-style: none; }
+button { background-color: white;outline: none;padding: 15px;font-weight: 700; cursor: pointer; }
+ul { display: flex; }
+li:not(:last-child) { margin-right: 15px; }
+
+.inner { margin-top: 100px;background-color: greenyellow;height: 400px; }
